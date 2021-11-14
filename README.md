@@ -1,6 +1,8 @@
   ### Module-12-SQL-Employee Tracker
+  An application for tracking employees.
 
   ### Description
+  Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as Content Management Systems. In this homework assignment, your challenge is to architect and build a solution for managing a company's employees using node, inquirer, and MySQL.
 
   ## Video Demo
   
@@ -21,6 +23,8 @@
 
   npm install inquirer
   npm install --save-dev jest
+  npm install console.table
+  npm install express
 
   <!-- start app -->
 
@@ -31,17 +35,15 @@
 
   node server.js
 
-  **Answer the prompts that appear in the command line. You will be asked to add a manager, engineer, and/or intern. From there, you may enter each employee's email, Id, and role within the team. After completing these steps, this message will appear in the terminal: "A file containing your roster has been generated!" If there is an error in generating this file, an error message will appear in the terminal.**
+  Answer the prompts that appear in the command line. You will be asked to add a department, employee, and their roles. From there, you may enter each employee's information. If there is an error in showing this file, an error message will appear in the terminal.
 
   ### Credits
-  Studied GitHub forums, Firefox Developer Tools, Stackoverflow and freecodecamp.
+  Studied GitHub forums, Firefox Developer Tools, Stackoverflow, and freecodecamp.
 
   ### License:
   This project is licensed under the MIT license.
   [![License badge](https://img.shields.io/badge/license-MIT-<COLOR>.svg)](#license)
   
-  ### Features:
-
   ### Contributing:
   You can contribute by asking first for permission then work on the repo to make it even better.
 
