@@ -21,10 +21,10 @@
 
   <!-- install dependencies -->
 
-  npm install inquirer
-  npm install --save-dev jest
-  npm install console.table
-  npm install express
+  * npm install inquirer
+  * npm install --save-dev jest
+  * npm install console.table
+  * npm install express*
 
   <!-- start app -->
 
